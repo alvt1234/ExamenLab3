@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>686</width>
+    <height>535</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,14 @@
    <widget class="QStackedWidget" name="Stack">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>20</y>
-      <width>751</width>
-      <height>521</height>
+      <x>0</x>
+      <y>-10</y>
+      <width>681</width>
+      <height>541</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(170, 170, 255);</string>
+     <string notr="true">background-color: rgb(56, 56, 56);</string>
     </property>
     <property name="currentIndex">
      <number>0</number>
@@ -33,11 +33,15 @@
      <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>80</y>
-        <width>83</width>
-        <height>29</height>
+        <x>290</x>
+        <y>110</y>
+        <width>121</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-bottom-color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Add Songs</string>
@@ -46,11 +50,14 @@
      <widget class="QPushButton" name="pushButton_2">
       <property name="geometry">
        <rect>
-        <x>300</x>
-        <y>140</y>
-        <width>161</width>
-        <height>31</height>
+        <x>270</x>
+        <y>170</y>
+        <width>151</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Downloads Songs</string>
@@ -59,24 +66,36 @@
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
-        <x>320</x>
+        <x>310</x>
         <y>20</y>
-        <width>63</width>
-        <height>20</height>
+        <width>101</width>
+        <height>41</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Emoji</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string>INICIO</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_3">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>200</y>
-        <width>131</width>
+        <x>290</x>
+        <y>230</y>
+        <width>121</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Review Songs</string>
@@ -85,11 +104,14 @@
      <widget class="QPushButton" name="pushButton_4">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>290</x>
         <y>290</y>
-        <width>83</width>
-        <height>29</height>
+        <width>121</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Songs</string>
@@ -98,11 +120,14 @@
      <widget class="QPushButton" name="pushButton_5">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>290</x>
         <y>350</y>
-        <width>83</width>
-        <height>29</height>
+        <width>121</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Info Songs</string>
@@ -113,14 +138,20 @@
      <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
-        <x>330</x>
-        <y>30</y>
-        <width>91</width>
-        <height>21</height>
+        <x>290</x>
+        <y>20</y>
+        <width>151</width>
+        <height>41</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Emoji</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true"/>
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Add Songs</string>
@@ -129,11 +160,14 @@
      <widget class="QPushButton" name="pushButton_6">
       <property name="geometry">
        <rect>
-        <x>40</x>
-        <y>460</y>
+        <x>590</x>
+        <y>20</y>
         <width>83</width>
         <height>29</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Volver</string>
@@ -142,34 +176,56 @@
      <widget class="QLabel" name="label_4">
       <property name="geometry">
        <rect>
-        <x>150</x>
-        <y>90</y>
-        <width>63</width>
-        <height>20</height>
+        <x>30</x>
+        <y>80</y>
+        <width>111</width>
+        <height>31</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Emoji</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Nombre:</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="txtnombreAdd">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>90</y>
+        <x>140</x>
+        <y>80</y>
         <width>161</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
-        <x>150</x>
-        <y>170</y>
-        <width>63</width>
-        <height>20</height>
+        <x>30</x>
+        <y>130</y>
+        <width>111</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Emoji</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Cantante:</string>
@@ -178,11 +234,20 @@
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>150</x>
-        <y>240</y>
-        <width>63</width>
-        <height>20</height>
+        <x>30</x>
+        <y>190</y>
+        <width>111</width>
+        <height>31</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Emoji</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Genero:</string>
@@ -191,44 +256,64 @@
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>150</x>
-        <y>300</y>
-        <width>63</width>
-        <height>20</height>
+        <x>30</x>
+        <y>250</y>
+        <width>111</width>
+        <height>31</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Emoji</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Precio:</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QLineEdit" name="txtcantanteAdd">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>160</y>
+        <x>140</x>
+        <y>140</y>
         <width>161</width>
         <height>31</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_3">
+     <widget class="QLineEdit" name="txtprecioAdd">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>300</y>
+        <x>140</x>
+        <y>250</y>
         <width>161</width>
         <height>31</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="cbGeneroAdd">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>240</y>
+        <x>140</x>
+        <y>190</y>
         <width>161</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <item>
        <property name="text">
@@ -266,17 +351,54 @@
        </property>
       </item>
      </widget>
-     <widget class="QPushButton" name="pushButton_9">
+     <widget class="QPushButton" name="btAgregarAdd">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>390</y>
-        <width>83</width>
-        <height>29</height>
+        <x>160</x>
+        <y>340</y>
+        <width>91</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Add</string>
+      </property>
+     </widget>
+     <widget class="QTimeEdit" name="timeEdit">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>120</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="displayFormat">
+       <string>mm:ss</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>70</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Segoe UI Emoji&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Duracion</string>
       </property>
      </widget>
     </widget>
@@ -284,11 +406,15 @@
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>20</y>
-        <width>131</width>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 14pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
        <string>Downloads Songs</string>
@@ -297,31 +423,43 @@
      <widget class="QLineEdit" name="lineEdit_4">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>100</y>
+        <x>270</x>
+        <y>110</y>
         <width>113</width>
         <height>28</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_5">
       <property name="geometry">
        <rect>
-        <x>350</x>
-        <y>190</y>
+        <x>270</x>
+        <y>170</y>
         <width>113</width>
         <height>28</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_8">
       <property name="geometry">
        <rect>
-        <x>150</x>
-        <y>100</y>
-        <width>161</width>
+        <x>80</x>
+        <y>110</y>
+        <width>181</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
        <string>Codigo de la cancion</string>
@@ -330,11 +468,15 @@
      <widget class="QLabel" name="label_9">
       <property name="geometry">
        <rect>
-        <x>150</x>
-        <y>200</y>
+        <x>80</x>
+        <y>170</y>
         <width>151</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
        <string>Nombre Cliente:</string>
@@ -343,11 +485,14 @@
      <widget class="QPushButton" name="pushButton_7">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>310</y>
-        <width>83</width>
-        <height>29</height>
+        <x>210</x>
+        <y>260</y>
+        <width>101</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Download</string>
@@ -362,6 +507,9 @@
         <height>29</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string>Volver</string>
       </property>
@@ -371,11 +519,15 @@
      <widget class="QLabel" name="label_10">
       <property name="geometry">
        <rect>
-        <x>330</x>
+        <x>20</x>
         <y>20</y>
-        <width>101</width>
-        <height>21</height>
+        <width>171</width>
+        <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 14pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
        <string>Review Songs</string>
@@ -384,11 +536,15 @@
      <widget class="QLabel" name="label_11">
       <property name="geometry">
        <rect>
-        <x>120</x>
-        <y>80</y>
-        <width>161</width>
+        <x>60</x>
+        <y>120</y>
+        <width>171</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
        <string>Codigo de la cancion</string>
@@ -397,11 +553,15 @@
      <widget class="QLabel" name="label_12">
       <property name="geometry">
        <rect>
-        <x>130</x>
+        <x>60</x>
         <y>180</y>
-        <width>63</width>
+        <width>81</width>
         <height>20</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
        <string>Estrellas:</string>
@@ -410,31 +570,43 @@
      <widget class="QLineEdit" name="lineEdit_6">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>90</y>
+        <x>260</x>
+        <y>120</y>
         <width>181</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_7">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>260</x>
         <y>170</y>
         <width>181</width>
         <height>31</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
      </widget>
      <widget class="QPushButton" name="pushButton_10">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>450</y>
-        <width>83</width>
-        <height>29</height>
+        <x>20</x>
+        <y>438</y>
+        <width>101</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
        <string>Volver</string>
@@ -443,11 +615,15 @@
      <widget class="QPushButton" name="pushButton_11">
       <property name="geometry">
        <rect>
-        <x>320</x>
-        <y>280</y>
-        <width>83</width>
-        <height>29</height>
+        <x>180</x>
+        <y>250</y>
+        <width>121</width>
+        <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
       </property>
       <property name="text">
        <string>Review</string>
@@ -464,6 +640,9 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string>Songs</string>
       </property>
@@ -477,6 +656,9 @@
         <height>31</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLabel" name="label_14">
       <property name="geometry">
@@ -487,18 +669,24 @@
         <height>20</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string>Cancion</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_12">
+     <widget class="QPushButton" name="btSongsVolver">
       <property name="geometry">
        <rect>
-        <x>70</x>
-        <y>460</y>
+        <x>10</x>
+        <y>450</y>
         <width>83</width>
         <height>29</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Volver</string>
@@ -513,6 +701,9 @@
         <height>29</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
        <string>Crear</string>
       </property>
@@ -522,8 +713,8 @@
      <widget class="QLineEdit" name="lineEdit_9">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>90</y>
+        <x>240</x>
+        <y>80</y>
         <width>191</width>
         <height>31</height>
        </rect>
@@ -532,21 +723,27 @@
      <widget class="QTextEdit" name="textEdit">
       <property name="geometry">
        <rect>
-        <x>190</x>
-        <y>190</y>
-        <width>391</width>
-        <height>251</height>
+        <x>60</x>
+        <y>170</y>
+        <width>521</width>
+        <height>271</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_15">
       <property name="geometry">
        <rect>
-        <x>140</x>
+        <x>70</x>
         <y>90</y>
         <width>161</width>
         <height>21</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Codigo de la cancion</string>
@@ -555,24 +752,30 @@
      <widget class="QLabel" name="label_16">
       <property name="geometry">
        <rect>
-        <x>340</x>
+        <x>70</x>
         <y>30</y>
-        <width>91</width>
+        <width>141</width>
         <height>21</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
       <property name="text">
-       <string>Info Songs</string>
+       <string>Informacion Songs</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButton_14">
       <property name="geometry">
        <rect>
-        <x>590</x>
-        <y>100</y>
+        <x>460</x>
+        <y>80</y>
         <width>83</width>
         <height>29</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Buscar</string>
@@ -581,11 +784,14 @@
      <widget class="QPushButton" name="pushButton_15">
       <property name="geometry">
        <rect>
-        <x>50</x>
-        <y>460</y>
+        <x>590</x>
+        <y>20</y>
         <width>83</width>
         <height>29</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
       </property>
       <property name="text">
        <string>Volver</string>
@@ -599,7 +805,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>686</width>
      <height>25</height>
     </rect>
    </property>

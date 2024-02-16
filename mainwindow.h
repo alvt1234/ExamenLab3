@@ -22,13 +22,9 @@ private slots:
 
     void on_pushButton_6_pressed();
 
-    void on_pushButton_2_released();
-
     void on_pushButton_2_pressed();
 
     void on_pushButton_3_pressed();
-
-    void on_pushButton_3_clicked();
 
     void on_pushButton_4_pressed();
 
@@ -41,6 +37,10 @@ private slots:
     void on_pushButton_12_pressed();
 
     void on_pushButton_15_pressed();
+
+    void on_btSongsVolver_pressed();
+
+    void on_btAgregarAdd_pressed();
 
 private:
     Ui::MainWindow *ui;

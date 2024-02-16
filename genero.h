@@ -4,7 +4,15 @@
 class Genero
 {
 public:
-    Genero();
+    enum Tipo {
+        POP,
+        ROCK,
+        RAP,
+        DANCE,
+        REGGAE,
+        ELECTRONICA,
+        RANCHERA
+    };
 };
 
 #endif // GENERO_H
