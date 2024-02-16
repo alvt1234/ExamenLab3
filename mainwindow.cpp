@@ -3,7 +3,7 @@
 #include "ctunes.h"
 #include "genero.h"
 #include <QTimeEdit>
-
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -47,6 +47,7 @@ void MainWindow::on_pushButton_5_pressed()
 void MainWindow::on_pushButton_8_pressed()
 {
     ui->Stack->setCurrentIndex(0);
+    //aqui
 }
 
 void MainWindow::on_pushButton_10_pressed()
@@ -86,7 +87,7 @@ void MainWindow::on_btAgregarAdd_pressed()
     string gen2=genero.toStdString();
     QTime tiempo = ui->timeEdit->time();
     QString timeString = tiempo.toString("mm:ss");
-    if(!ui->txtnombreAdd->text().isEmpty() && !ui->txtcantanteAdd->text().isEmpty() && !ui->txtprecioAdd->text().isEmpty())
+    if(!ui->txtnombreAdd->text().isEmpty() && !ui->txtcantanteAdd->text().isEmpty() && !ui->txtprecioAdd->text().isEmpty()){
         if (genero == "Pop") {
             Enumeracion = Genero::POP;
         } else if (genero == "Rock") {
@@ -103,5 +104,55 @@ void MainWindow::on_btAgregarAdd_pressed()
             Enumeracion = Genero::RANCHERA;
         }
         principal.addSong(name,namecantante,Enumeracion,precio,timeString);
+        ui->txtnombreAdd->setText("");
+        ui->txtcantanteAdd->setText("");
+        ui->txtprecioAdd->setText("");
+
+}else
+    QMessageBox::information(nullptr, "Error", "Espacios Vacios.");
+}
+
+void MainWindow::on_pushButton_14_pressed()
+{
+    ctunes principal;
+    int code=ui->txtcodeinfo->text().toInt();
+    string info = principal.infoSong(code);
+    QString infoQString = QString::fromStdString(info);
+    ui->textEdit->setText(infoQString);
+
+}
+
+
+void MainWindow::on_pushButton_11_pressed()
+{
+    ctunes principal;
+    int code=ui->txtcodereview->text().toInt();
+    int stars=ui->txtestrellas->text().toInt();
+    principal.reviewSong(code,stars);
+}
+
+
+void MainWindow::on_pushButton_7_pressed()
+{
+    ctunes principal;
+    int code=ui->txtcodeDown->text().toInt();
+    QString clienteQStr = ui->txtcliente->text();
+    string cliente = clienteQStr.toStdString();
+    string info=principal.downloadSong(code,cliente);
+    QString infoQString = QString::fromStdString(info);
+    ui->areadownload->setText(infoQString);
+    ui->txtcodeDown->setText("");
+    ui->txtcliente->setText("");
+
+}
+
+
+void MainWindow::on_pushButton_13_pressed()
+{
+    ctunes principal;
+    QString cancion = ui->txtcancion->text();
+    QString info = principal.songs(cancion);
+
+    ui->areasongs->setText(info);
 }
 

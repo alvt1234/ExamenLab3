@@ -42,6 +42,14 @@ private slots:
 
     void on_btAgregarAdd_pressed();
 
+    void on_pushButton_14_pressed();
+
+    void on_pushButton_11_pressed();
+
+    void on_pushButton_7_pressed();
+
+    void on_pushButton_13_pressed();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -1,3 +1,8 @@
 #include "invalidrateexception.h"
 
-Invalidrateexception::Invalidrateexception() {}
+
+    InvalidRateException::InvalidRateException(int rate) : std::invalid_argument("El rango esta afuera de 0,5") {
+
+    }
+
+

@@ -1,10 +1,13 @@
+// invalidrateexception.h
 #ifndef INVALIDRATEEXCEPTION_H
 #define INVALIDRATEEXCEPTION_H
 
-class Invalidrateexception
-{
+#include <stdexcept>
+#include <string>
+
+class InvalidRateException : public std::invalid_argument {
 public:
-    Invalidrateexception();
+    InvalidRateException(int rate);
 };
 
 #endif // INVALIDRATEEXCEPTION_H
